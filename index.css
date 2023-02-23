@@ -1,0 +1,33 @@
+.slide {
+  width: 750px;
+  height: 530px;
+}
+
+.active {
+  border: solid 1px red;
+}
+
+.workspace {
+  width: 750px;
+  height: 500px;
+  background: beige;
+  position: relative;
+}
+
+.delete-slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.slide-memo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.textarea {
+  background: white;
+  border: solid black;
+  position: absolute;
+}
